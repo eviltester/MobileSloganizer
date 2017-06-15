@@ -11,6 +11,10 @@ I used build.phonegap.com to create the app:
 
 https://build.phonegap.com/apps/2667263
 
-First version was built from a zip file.
+
+# 20170615
+
+- First version was built from a zip file on build.phonegap.com
+- Based on https://stackoverflow.com/questions/16989933/what-parts-of-cordova-cli-generated-projects-can-be-safely-versioned-in-source-c I have only added www and config to github.
  
 
