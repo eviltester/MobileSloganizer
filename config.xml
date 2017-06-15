@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="uk.co.compendiumdev.sloganizer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Evil Tester Sloganizer</name>
+    <description>
+        Evil Tester Slogans in your pocket.
+    </description>
+    <author email="alan@compendiumdev.co.uk" href="http://compendiumdev.co.uk">
+        Alan Richardson, Compendium Developments, EvilTester.com
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
