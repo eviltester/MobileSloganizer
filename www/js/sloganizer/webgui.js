@@ -21,9 +21,3 @@ function changeSloganTo(slogan){
     //ul.appendChild(li);
 
 }
-
-function showBookAd(){
-    if(randomNumberUpTo(25)>23){
-        document.getElementById("bookinfo").setAttribute("style","display");
-    }
-}

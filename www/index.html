@@ -22,13 +22,27 @@
 
 <p class="slogan"><span id="slogan">How can I help you?</span></p>
 
+
 <!--
 
+20170616 experimenting with tweets - managed to get twitter to open in browser, but not app
 <div class="tweetthis">
     <a id="tweetthis" class="twitter-share-link"
-       href="https://twitter.com/intent/tweet?text=%23EvilTesterSloganizer" target="_blank" rel="noopener noreferrer">
-        Tweet This</a>
+       href="https://twitter.com/intent/tweet?text=%23EvilTesterSloganizer" target="_blank" rel="noopener noreferrer"
+       onclick="tweetThis(true)"
+       >
+        Tweet This Using Browser</a>
 </div>
+
+<div class="tweetthis">
+    <a id="tweetthisapp" class="twitter-share-link"
+       href="#" target="_blank" rel="noopener noreferrer"
+       onclick="tweetThis(false)"
+       >
+        Tweet This Using Twitter App</a>
+</div>
+
+
 
 <div class="pinterestboard">
     <a id="pinterestboard" class="pinterestboard-link"
@@ -44,12 +58,12 @@
 
 
 
+-->
 
-<div id="bookinfo" class="book" style="display:none">
-    <h2>If you like this, you'll probably enjoy the book "<a href='http://eviltester.com/page/dearEvilTester/'>Dear Evil Tester</a>"</h2>
+<div id="bookinfo" class="book" style="display:none" >
+    <h2>If you like this, you'll probably enjoy the book &quot;<a id='deareviltester' onclick='openlink("deareviltester")' href='http://eviltester.com/page/dearEvilTester/'>Dear Evil Tester</a>&quot;</h2>
 </div>
 
--->
 
 <div id="sloganhistory" style="display:none">
     <h2>History</h2>

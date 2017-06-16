@@ -8,3 +8,9 @@ function changeSlogan(){
 
     showBookAd();
 }
+
+function showBookAd(){
+    if(randomNumberUpTo(25)>23){
+        document.getElementById("bookinfo").setAttribute("style","display");
+    }
+}
