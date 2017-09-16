@@ -55,9 +55,7 @@ function openlink(anid){
 
     inAppBrowserRef.addEventListener('loadstop', loadStopCallBack);
 
-    inAppBrowserRef.addEventListener('loaderror', loadErrorCallBack);
-
-    
+    inAppBrowserRef.addEventListener('loaderror', loadErrorCallBack);    
 }
 
 /*
